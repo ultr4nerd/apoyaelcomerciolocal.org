@@ -9,7 +9,8 @@
     "export": "nuxt export",
     "serve": "nuxt serve",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "lint": "yarn lint:js",
+    "build:netlify": "yarn build && yarn export"
   },
   "dependencies": {
     "@nuxt/content": "^1.3.2",
