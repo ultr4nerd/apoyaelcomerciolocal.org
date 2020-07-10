@@ -1,7 +1,7 @@
 ---
 title: Comida
 description: Deliciosos platillos directo a tu casa
-image: /placeholder.png
+image: /placeholder.jpg
 featured: true
 ---
 

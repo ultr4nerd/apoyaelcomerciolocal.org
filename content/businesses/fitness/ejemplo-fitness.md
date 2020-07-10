@@ -1,7 +1,7 @@
 ---
 title: Fitness
 description: ¡Obtén el cuerpo que quieres hoy!
-image: /placeholder.png
+image: /placeholder.jpg
 featured: false
 ---
 

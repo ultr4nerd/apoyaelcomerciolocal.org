@@ -1,7 +1,7 @@
 ---
 title: Ropa
 description: Aprovecha las grandes ofertas en ropa
-image: /placeholder.png
+image: /placeholder.jpg
 featured: true
 ---
 
