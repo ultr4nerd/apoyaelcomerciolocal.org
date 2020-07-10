@@ -1,13 +1,52 @@
 <template>
   <div class="error">
-    <navbar />
-    <nuxt />
-    <slot />
+    <div class="content has-text-centered">
+      <img src="~assets/404.png" alt="Error Image" />
+      <div v-if="error.statusCode === 404" class="error-message">
+        <h1 class="title has-text-primary">
+          Lo sentimos...
+        </h1>
+        <p class="subtitle is-6">
+          Aquí no se encuentra lo que necesitabas
+        </p>
+      </div>
+      <div v-else class="error-message">
+        <h1 class="title has-text-primary">
+          Ha ocurrido un error
+        </h1>
+        <h3 class="subtitle is-6">
+          Estamos trabajando para solucionarlo
+        </h3>
+      </div>
+      <b-button type="is-primary" tag="nuxt-link" to="/">
+        Volver al inicio
+      </b-button>
+    </div>
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  props: {
+    error: {
+      type: Object,
+      required: true,
+    },
+  },
+}
+</script>
+
+<style scoped>
+img {
+  width: 100px;
+}
+
+.error-message {
+  margin: 20px 0 30px;
+}
+
 .error {
-  padding: 100px;
+  padding-top: 20vh;
+  min-height: 70vh;
 }
 </style>
