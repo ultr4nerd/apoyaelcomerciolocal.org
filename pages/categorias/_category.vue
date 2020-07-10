@@ -9,8 +9,6 @@
 <script>
 export default {
   async asyncData({ $content, route, error }) {
-    // eslint-disable-next-line no-console
-    console.log('route.params.category', route.params.category)
     try {
       const businesses = await $content('businesses', route.params.category)
         .sortBy('updatedAt')
