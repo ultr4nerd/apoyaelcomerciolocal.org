@@ -11,7 +11,7 @@
         que si estás interesado en apoyar el proyecto, puedes hacerlo
         contactándome y ofreciendo ayuda con alguna habilidad que pueda resultar
         de utilidad, o donándome algo que no te quite demasiado. De cualquier
-        manero te lo agradeceré infinitamente. 🤩
+        manera te lo agradeceré infinitamente. 🤩
       </p>
     </section>
     <footer class="modal-card-foot">

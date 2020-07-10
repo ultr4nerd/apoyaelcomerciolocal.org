@@ -12,6 +12,17 @@ export default {
         content:
           'Somos una iniciativa que busca ayudar a algunos comercios locales en México que han sido afectados por la pandemia. 🇲🇽',
       },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: '¡Apoya el Comercio Local!',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Somos una iniciativa que busca ayudar a algunos comercios locales en México que han sido afectados por la pandemia. 🇲🇽',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
