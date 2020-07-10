@@ -14,7 +14,13 @@
         </p>
       </div>
       <nav class="level is-mobile">
-        <b-button type="is-primary" size="is-small">Ver más</b-button>
+        <b-button
+          tag="nuxt-link"
+          :to="`/comercios/${business.slug}`"
+          type="is-primary"
+          size="is-small"
+          >Ver más</b-button
+        >
       </nav>
     </div>
   </article>

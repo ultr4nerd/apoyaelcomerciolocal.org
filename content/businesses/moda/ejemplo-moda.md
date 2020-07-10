@@ -5,6 +5,4 @@ image: /placeholder.jpg
 featured: true
 ---
 
-## Ropa
-
-Aprovecha las grandes ofertas en ropa
+Aprovecha increíbles ofertas en ropa, todo el fin de semana.

@@ -1,12 +1,18 @@
 <template>
-  <div>
+  <div class="layout">
     <navbar />
-    <nuxt />
+    <div class="layout-content">
+      <nuxt />
+    </div>
     <footer-section />
   </div>
 </template>
 
 <style scoped>
+div.layout-content {
+  min-height: 70vh;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: all 0.2s ease-in-out;

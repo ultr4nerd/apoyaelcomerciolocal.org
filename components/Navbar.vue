@@ -19,13 +19,13 @@
       </template>
       <template #end>
         <b-navbar-item href="#">
-          ¡Quiero estar dentro!
+          Servicios
         </b-navbar-item>
         <b-navbar-item href="#">
-          Otros Servicios
+          ¿Cómo puedo entrar?
         </b-navbar-item>
         <b-navbar-item @click="isModalActive = true">
-          Apoya el proyecto
+          Quiero apoyar al proyecto
         </b-navbar-item>
       </template>
     </b-navbar>
