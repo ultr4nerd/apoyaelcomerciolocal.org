@@ -7,7 +7,7 @@
           Lo sentimos...
         </h1>
         <p class="subtitle is-6">
-          Aquí no se encuentra lo que necesitabas
+          {{ errorMessage }}
         </p>
       </div>
       <div v-else class="error-message">
@@ -31,6 +31,19 @@ export default {
     error: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    errorMessage() {
+      if (
+        ['This page could not be found', 'Not Found'].includes(
+          this.error.message
+        )
+      ) {
+        return 'No pudimos encontrar lo que necesitabas'
+      } else {
+        return this.error.message
+      }
     },
   },
 }

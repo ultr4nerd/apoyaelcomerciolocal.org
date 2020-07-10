@@ -2,15 +2,15 @@
   <article class="media">
     <figure class="media-left">
       <p class="image is-64x64">
-        <img src="~/assets/placeholder.png" />
+        <img :src="business.image" />
       </p>
     </figure>
     <div class="media-content">
       <div class="content">
         <p>
-          <strong>Nombre del comercio</strong>
+          <strong>{{ business.title }}</strong>
           <br />
-          Breve descripción
+          {{ business.description }}
         </p>
       </div>
       <nav class="level is-mobile">
@@ -19,3 +19,14 @@
     </div>
   </article>
 </template>
+
+<script>
+export default {
+  props: {
+    business: {
+      type: Object,
+      required: true,
+    },
+  },
+}
+</script>

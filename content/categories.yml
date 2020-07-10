@@ -1,0 +1,16 @@
+list:
+  - name: Comida
+    image: '/categories/food.png'
+    url: /comida
+
+  - name: Moda
+    image: '/categories/fashion.png'
+    url: /moda
+
+  - name: Arte
+    image: '/categories/art.png'
+    url: /arte
+
+  - name: Fitness
+    image: '/categories/fitness.png'
+    url: /fitness
