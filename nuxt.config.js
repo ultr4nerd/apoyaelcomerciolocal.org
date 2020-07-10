@@ -22,4 +22,7 @@ export default {
   modules: ['nuxt-buefy', '@nuxtjs/pwa', '@nuxt/content'],
   content: {},
   build: {},
+  generate: {
+    fallback: true,
+  },
 }
