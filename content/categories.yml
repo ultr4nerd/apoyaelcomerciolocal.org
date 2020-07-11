@@ -2,23 +2,23 @@ list:
   - name: Comida
     description: Ordena comida preparada desde nuestra lista de establecimientos
     image: '/categories/food.jpg'
-    seoImage: '/categories-seo/food.jpg'
+    seoImage: '/categories-seo/food.png'
     url: comida
 
   - name: Moda
     description: Compra ropa y accesorios en muy buenos precios
     image: '/categories/fashion.jpg'
-    seoImage: '/categories-seo/fashion.jpg'
+    seoImage: '/categories-seo/fashion.png'
     url: moda
 
   - name: Arte
     description: Servicios y productos artísticos
     image: '/categories/art.jpg'
-    seoImage: '/categories-seo/art.jpg'
+    seoImage: '/categories-seo/art.png'
     url: arte
 
   - name: Fitness
     description: Produtos y servicios para que lleves una vida sana
-    image: '/categories/fitness.jpg'
-    seoImage: '/categories-seo/fitness.jpg'
+    image: '/categories/fitness.png'
+    seoImage: '/categories-seo/fitness.png'
     url: fitness
