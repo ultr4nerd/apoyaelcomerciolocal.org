@@ -23,10 +23,41 @@ export default {
         content:
           'Somos una iniciativa que busca ayudar a algunos comercios locales en México que han sido afectados por la pandemia. 🇲🇽',
       },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/ogImages/logo.png',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://apoyaelcomercioloca.org',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: '¡Apoya el Comercio Local!',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'Somos una iniciativa que busca ayudar a algunos comercios locales en México que han sido afectados por la pandemia. 🇲🇽',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/ogImages/logo.png',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  css: [],
+  css: ['~/css/main.css'],
   plugins: [],
   components: true,
   buildModules: ['@nuxtjs/eslint-module'],

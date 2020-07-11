@@ -2,7 +2,10 @@
   <div>
     <section class="hero is-light">
       <div class="hero-body">
-        <div class="container">
+        <div class="container has-text-centered info-header">
+          <figure class="image is-128x128">
+            <img :src="business.image" :alt="business.title" />
+          </figure>
           <h1 class="title has-text-primary">
             {{ business.title }}
           </h1>
@@ -24,6 +27,7 @@
 
 <script>
 export default {
+  layout: 'noFooter',
   async asyncData({ $content, route, error }) {
     const business = await $content('businesses', { deep: true })
       .where({ slug: route.params.business })
@@ -37,3 +41,16 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+figure {
+  margin-bottom: 20px;
+}
+
+.info-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+</style>

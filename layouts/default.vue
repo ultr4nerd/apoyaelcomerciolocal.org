@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div>
     <navbar />
     <div class="layout-content">
       <nuxt />
@@ -11,16 +11,5 @@
 <style scoped>
 div.layout-content {
   min-height: 70vh;
-}
-
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.2s ease-in-out;
-}
-
-.page-enter,
-.page-leave-to {
-  transform: translateX(10px);
-  opacity: 0;
 }
 </style>

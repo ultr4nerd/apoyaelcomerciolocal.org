@@ -1,7 +1,7 @@
 <template>
   <article class="media">
     <figure class="media-left">
-      <p class="image is-64x64">
+      <p class="image is-128x128">
         <img :src="business.image" />
       </p>
     </figure>
@@ -36,3 +36,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+article {
+  align-items: center;
+}
+</style>
