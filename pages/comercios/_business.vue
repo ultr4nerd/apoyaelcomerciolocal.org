@@ -80,7 +80,7 @@ export default {
         },
         {
           hid: 'twitter:image:src',
-          name: 'twitter:image',
+          name: 'twitter:image:src',
           content: this.business.seoImage,
         },
       ],
