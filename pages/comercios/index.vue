@@ -15,5 +15,10 @@ export default {
       .fetch()
     return { businesses }
   },
+  head() {
+    return {
+      title: 'Comercios | Apoya el Comercio Local',
+    }
+  },
 }
 </script>

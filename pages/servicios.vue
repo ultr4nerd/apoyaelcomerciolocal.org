@@ -41,3 +41,13 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Servicios | Apoya el Comercio Local',
+    }
+  },
+}
+</script>

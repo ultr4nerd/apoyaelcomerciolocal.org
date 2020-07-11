@@ -26,7 +26,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: '/ogImages/logo.png',
+        content: '/business-seo/apoyaelcomerciolocal.png',
       },
       {
         hid: 'twitter:card',
@@ -52,7 +52,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/ogImages/logo.png',
+        content: '/business-seo/apoyaelcomerciolocal.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

@@ -13,5 +13,10 @@ export default {
     const { list } = await $content('categories').fetch()
     return { categories: list }
   },
+  head() {
+    return {
+      title: 'Categorías | Apoya el Comercio Local',
+    }
+  },
 }
 </script>

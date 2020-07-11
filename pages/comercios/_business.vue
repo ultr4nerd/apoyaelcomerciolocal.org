@@ -39,6 +39,58 @@ export default {
       error({ statusCode: 404, message: 'No pudimos encontrar el comercio' })
     }
   },
+  head() {
+    return {
+      title: this.business.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.business.description,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.business.title,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.business.description,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.business.seoImage,
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: 'https://apoyaelcomerciolocal.org',
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.business.title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.business.description,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.business.seoImage,
+        },
+      ],
+    }
+  },
 }
 </script>
 
