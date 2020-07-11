@@ -71,7 +71,7 @@ export default {
         {
           hid: 'twitter:url',
           name: 'twitter:url',
-          content: 'https://apoyaelcomerciolocal.org',
+          content: `https://apoyaelcomerciolocal.org${this.$route.fullPath}`,
         },
         {
           hid: 'twitter:title',
