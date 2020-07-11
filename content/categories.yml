@@ -19,6 +19,6 @@ list:
 
   - name: Fitness
     description: Produtos y servicios para que lleves una vida sana
-    image: '/categories/fitness.png'
+    image: '/categories/fitness.jpg'
     seoImage: '/categories-seo/fitness.png'
     url: fitness
