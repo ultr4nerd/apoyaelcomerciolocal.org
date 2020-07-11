@@ -18,11 +18,8 @@
         </b-navbar-item>
       </template>
       <template #end>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="nuxt-link" to="/servicios">
           Servicios
-        </b-navbar-item>
-        <b-navbar-item href="#">
-          ¿Cómo puedo entrar?
         </b-navbar-item>
         <b-navbar-item @click="isModalActive = true">
           Quiero apoyar al proyecto
