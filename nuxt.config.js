@@ -14,29 +14,24 @@ export default {
       },
       {
         hid: 'og:title',
-        name: 'og:title',
+        property: 'og:title',
         content: '¡Apoya el Comercio Local!',
       },
       {
         hid: 'og:description',
-        name: 'og:description',
+        property: 'og:description',
         content:
           'Somos una iniciativa que busca ayudar a algunos comercios locales en México que han sido afectados por la pandemia. 🇲🇽',
       },
       {
         hid: 'og:image',
-        name: 'og:image',
+        property: 'og:image',
         content: '/business-seo/apoyaelcomerciolocal.png',
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image',
-      },
-      {
-        hid: 'twitter:url',
-        name: 'twitter:url',
-        content: 'https://apoyaelcomerciolocal.org',
       },
       {
         hid: 'twitter:title',
@@ -50,8 +45,8 @@ export default {
           'Somos una iniciativa que busca ayudar a algunos comercios locales en México que han sido afectados por la pandemia. 🇲🇽',
       },
       {
-        hid: 'twitter:image',
-        name: 'twitter:image',
+        hid: 'twitter:image:src',
+        name: 'twitter:image:src',
         content: '/business-seo/apoyaelcomerciolocal.png',
       },
     ],

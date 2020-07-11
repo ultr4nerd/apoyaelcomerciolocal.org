@@ -2,7 +2,7 @@
 title: Arte
 description: Increíbles diseños para ti
 image: /placeholder.jpg
-seoImage: /business-seo/placeholder.jpg
+seoImage: /business-seo/placeholder.png
 featured: false
 ---
 

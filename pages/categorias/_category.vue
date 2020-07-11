@@ -39,28 +39,23 @@ export default {
         },
         {
           hid: 'og:title',
-          name: 'og:title',
+          property: 'og:title',
           content: this.title,
         },
         {
           hid: 'og:description',
-          name: 'og:description',
+          property: 'og:description',
           content: this.description,
         },
         {
           hid: 'og:image',
-          name: 'og:image',
+          property: 'og:image',
           content: this.seoImage,
         },
         {
           hid: 'twitter:card',
           name: 'twitter:card',
           content: 'summary_large_image',
-        },
-        {
-          hid: 'twitter:url',
-          name: 'twitter:url',
-          content: `https://apoyaelcomerciolocal.org${this.$route.fullPath}`,
         },
         {
           hid: 'twitter:title',
@@ -73,7 +68,7 @@ export default {
           content: this.description,
         },
         {
-          hid: 'twitter:image',
+          hid: 'twitter:image:src',
           name: 'twitter:image',
           content: this.seoImage,
         },
