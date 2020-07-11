@@ -36,7 +36,7 @@ export default {
       {
         hid: 'twitter:url',
         name: 'twitter:url',
-        content: 'https://apoyaelcomercioloca.org',
+        content: 'https://apoyaelcomerciolocal.org',
       },
       {
         hid: 'twitter:title',
