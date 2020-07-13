@@ -11,7 +11,7 @@ export default {
   name: 'Comercios',
   async asyncData({ $content }) {
     const businesses = await $content('businesses', { deep: true })
-      .sortBy('updatedAt')
+      .sortBy('updatedAt', 'desc')
       .fetch()
     return { businesses }
   },

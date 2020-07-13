@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <business-list :businesses="businesses" />
+      <business-list :businesses="businesses" :title="title" />
     </div>
   </section>
 </template>
@@ -16,10 +16,10 @@ export default {
       )[0]
 
       const businesses = await $content('businesses', route.params.category)
-        .sortBy('updatedAt')
+        .sortBy('updatedAt', 'desc')
         .fetch()
       return {
-        title: name + ' | Apoya el Comercio Local',
+        title: name,
         description,
         seoImage,
         businesses,
@@ -30,7 +30,7 @@ export default {
   },
   head() {
     return {
-      title: this.title,
+      title: this.title + ' | Apoya el Comercio Local',
       meta: [
         {
           hid: 'description',

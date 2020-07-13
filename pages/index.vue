@@ -28,7 +28,7 @@ export default {
     const businesses = await $content('businesses', { deep: true }).fetch()
     const featured = await $content('businesses', { deep: true })
       .where({ featured: true })
-      .sortBy('updatedAt')
+      .sortBy('updatedAt', 'desc')
       .fetch()
     return { businesses, featured, categories: list }
   },
