@@ -13,28 +13,28 @@ Teléfono: 5557595333
 <div class="columns">
   <div class="column"></div>
   <div class="column is-2">
-    <figure class="image is-128x128">
-      <img src="/business/gourmetaquito/1.jpg" alt="First"></img>
+    <figure class="image">
+      <img src="/business/gourmetaquito/1.jpg" alt="One"></img>
     </figure>
   </div>
   <div class="column is-2">
-    <figure class="image is-128x128">
-      <img src="/business/gourmetaquito/2.jpg" alt="First"></img>
+    <figure class="image">
+      <img src="/business/gourmetaquito/2.jpg" alt="Two"></img>
     </figure>
   </div>
   <div class="column is-2">
-    <figure class="image is-128x128">
-      <img src="/business/gourmetaquito/3.jpg" alt="First"></img>
+    <figure class="image">
+      <img src="/business/gourmetaquito/3.jpg" alt="Three"></img>
     </figure>
   </div>
   <div class="column is-2">
-    <figure class="image is-128x128">
-      <img src="/business/gourmetaquito/4.jpg" alt="First"></img>
+    <figure class="image">
+      <img src="/business/gourmetaquito/4.jpg" alt="Four"></img>
     </figure>
   </div>
   <div class="column is-2">
-    <figure class="image is-128x128">
-      <img src="/business/gourmetaquito/5.jpg" alt="First"></img>
+    <figure class="image">
+      <img src="/business/gourmetaquito/5.jpg" alt="Five"></img>
     </figure>
   </div>
   <div class="column"></div>

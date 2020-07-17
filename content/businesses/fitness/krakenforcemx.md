@@ -14,7 +14,7 @@ Rutinas de ejercicio personalizadas, videollamadas programadas, asesorías via W
 
 Manda un DM para aprovechar la promoción del mes.
 
-<b-button type="is-primary" tag="a" href="https://www.instagram.com/krakenforcemx/">Instagram</b-button>
+<b-button type="is-primary" tag="a" href="https://www.instagram.com/krakenforcemx">Instagram</b-button>
 <b-button type="is-success" tag="a" href="https://api.whatsapp.com/send?phone=525522699963&text=Me%20interesa%20saber%20m%C3%A1s%20sobre%20KrakenForceMX">
   WhatsApp
 </b-button>

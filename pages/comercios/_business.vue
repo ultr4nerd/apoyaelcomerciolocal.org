@@ -4,7 +4,11 @@
       <div class="hero-body">
         <div class="container has-text-centered info-header">
           <figure class="image is-128x128">
-            <img :src="business.image" :alt="business.title" />
+            <img
+              class="is-rounded"
+              :src="business.image"
+              :alt="business.title"
+            />
           </figure>
           <h1 class="title has-text-primary">
             {{ business.title }}

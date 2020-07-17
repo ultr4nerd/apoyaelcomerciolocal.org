@@ -22,17 +22,17 @@ Hago de diseños que yo tengo o diseños personalizados
   <div class="column"></div>
   <div class="column is-4">
     <figure class="image">
-      <img src="/business/sin_bolsa/1.png" alt="First"></img>
+      <img src="/business/sin_bolsa/1.png" alt="One"></img>
     </figure>
   </div>
   <div class="column is-4">
     <figure class="image">
-      <img src="/business/sin_bolsa/2.jpg" alt="First"></img>
+      <img src="/business/sin_bolsa/2.jpg" alt="Two"></img>
     </figure>
   </div>
   <div class="column is-4">
     <figure class="image">
-      <img src="/business/sin_bolsa/3.jpg" alt="First"></img>
+      <img src="/business/sin_bolsa/3.jpg" alt="Three"></img>
     </figure>
   </div>
   <div class="column"></div>
