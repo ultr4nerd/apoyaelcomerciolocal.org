@@ -5,7 +5,7 @@ list:
     seoImage: '/categories-seo/food.png'
     url: comida
 
-  - name: Moda
+  - name: Moda y Artículos
     description: Compra ropa y accesorios en muy buenos precios
     image: '/categories/fashion.jpg'
     seoImage: '/categories-seo/fashion.png'
@@ -22,3 +22,9 @@ list:
     image: '/categories/fitness.jpg'
     seoImage: '/categories-seo/fitness.png'
     url: fitness
+
+  - name: Mascotas
+    description: Alimentos y productos para tus mascotas.
+    image: '/categories/pets.jpg'
+    seoImage: '/categories-seo/pets.png'
+    url: mascotas

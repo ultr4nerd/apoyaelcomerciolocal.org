@@ -2,7 +2,7 @@
 title: Gourmetaquito (cocina)
 description: Deliciosa comida casera mexicana
 image: /logos/gourmetaquito.jpg
-seoImage: /business-seo/gourmetaquito.jpg
+seoImage: /business-seo/gourmetaquito.png
 featured: true
 ---
 
