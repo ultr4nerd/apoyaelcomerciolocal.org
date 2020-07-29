@@ -1,6 +1,5 @@
-# apoyaelcomerciolocal.org
+# apoyaelcomerciolocal.org [![Netlify Status](https://api.netlify.com/api/v1/badges/02fb3084-fd24-40f0-bec0-74914d2953f3/deploy-status)](https://app.netlify.com/sites/apoyaelcomerciolocal/deploys)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/02fb3084-fd24-40f0-bec0-74914d2953f3/deploy-status)](https://app.netlify.com/sites/apoyaelcomerciolocal/deploys)
 
 ## Build Setup
 
