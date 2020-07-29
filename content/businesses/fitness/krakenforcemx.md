@@ -3,7 +3,7 @@ title: KrakenForceMX
 description: ENTRENAMIENTO + ASESORÍAS + EVALUACIONES 🤽‍♂️🧗‍♀️🏊‍♂️🏋️‍♀️🧘‍♂️
 image: /logos/krakenforcemx.jpg
 seoImage: /business-seo/krakenforcemx.png
-featured: true
+featured: false
 ---
 
 ## Atrévete a cambiar

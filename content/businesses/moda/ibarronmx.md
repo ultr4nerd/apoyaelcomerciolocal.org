@@ -3,7 +3,7 @@ title: Ibarron
 description: ¡Conócenos! Queremos ser tu nueva playera favorita.
 image: /logos/ibarronmx.jpg
 seoImage: /business-seo/ibarronmx.png
-featured: true
+featured: false
 ---
 
 <div class="has-text-centered">

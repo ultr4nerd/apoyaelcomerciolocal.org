@@ -1,6 +1,6 @@
 ---
 title: Eleagepeclothing
-description: Marca de steetwear 100% mexicana.
+description: Marca de steetwear 100% mexicana
 image: /logos/eleagepeclothing.jpg
 seoImage: /business-seo/eleagepeclothing.png
 featured: true

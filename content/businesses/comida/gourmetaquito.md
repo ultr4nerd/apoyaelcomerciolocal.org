@@ -3,7 +3,7 @@ title: Gourmetaquito (cocina)
 description: Deliciosa comida casera mexicana
 image: /logos/gourmetaquito.jpg
 seoImage: /business-seo/gourmetaquito.png
-featured: true
+featured: false
 ---
 
 Estamos en _Buen Tono 36, Colonia Industrial, Delegación Gustavo A Madero, Ciudad de México_

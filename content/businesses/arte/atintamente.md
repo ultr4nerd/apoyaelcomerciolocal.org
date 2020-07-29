@@ -3,7 +3,7 @@ title: ꒻꒤ꋬꋊ ꉣꋬꃳ꒒ꄲ ꒐ꃳꋬꋪꋪꄲꋊ | @atintamente
 description: 🖌✒ Ilustraciones de CALIDAD! 🇲🇽
 image: /logos/atintamente.jpg
 seoImage: /business-seo/atintamente.png
-featured: true
+featured: false
 ---
 
 🖌✒ Ilustraciones de CALIDAD! 🇲🇽
