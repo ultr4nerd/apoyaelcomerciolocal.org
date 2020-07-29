@@ -6,8 +6,8 @@
           ¡Apoya el comercio local!
         </h1>
         <h2 class="subtitle">
-          Estamos en medio de tiempo difíciles. Por eso creamos una iniciativa
-          como esta.
+          Somos una iniciativa que busca ayudar a algunos comercios locales en
+          México que han sido afectados por la pandemia. 🇲🇽
         </h2>
       </div>
     </div>
